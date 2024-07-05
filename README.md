@@ -18,3 +18,16 @@ Account SID: ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 Call SID:    CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 API Key:     SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
+
+
+Note: This is important as Twilio libraries use these values as a part of the URL for API requests. When testing the snippets real requests will be made to a fake server.
+
+twilio-java dependency in your project to grab via Maven =>
+
+  <dependency>
+      <groupId>com.twilio.sdk</groupId>
+      <artifactId>twilio</artifactId>
+      <version>8.X.X</version>
+      <scope>compile</scope>
+   </dependency>
+
